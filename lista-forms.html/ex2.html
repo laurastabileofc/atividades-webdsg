@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+   <link rel="stylesheet" href="style2.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulário 2</title>
+</head>
+<body>
+   <h1>Formulário</h1>
+   <fieldset>
+      <legend>Dados Pessoais</legend>
+
+      <table width="30%" height="100px">
+         <tr>
+            <td>
+               <label for="name">Nome:</label>
+            </td>
+            <td>
+               <input type="text">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="end">Endereço:</label>
+            </td>
+            <td>
+               <input type="text">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="city">Cidade:</label>
+            </td>
+            <td>
+               <input type="number">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="state">Estado:</label>
+            </td>
+            <td>
+               <select name="state" id="state">
+                  <option value="SP">São Paulo</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+               </select>
+            </td>
+         </tr>
+      </table>
+   </fieldset>
+   
+   <fieldset>
+      <legend>Dados profissionais</legend>
+      <table width="30%" height="100px">
+         <tr>
+            <td colspan="5">
+               <label for="cargo">Natureza do Cargo</label>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <input type="radio">Gerência
+            </td>
+            <td>
+               <input type="radio">Financeiro
+            </td>
+            <td>
+               <input type="radio">Recepção
+            </td>
+            <td>
+               <input type="radio">Administrativo
+            </td>
+            <td>
+               <input type="radio">Jurídico
+            </td>
+         </tr>
+         <tr>
+            <td colspan="5">
+               <label for="area">Área de interesse</label>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <input type="checkbox">Computação
+            </td>
+            <td>
+               <input type="checkbox">Biologia
+            </td>
+            <td>
+               <input type="checkbox">Meio Ambiente
+            </td>
+            <td>
+               <input type="checkbox">Engenharia
+            </td>
+            <td>
+               <input type="checkbox">História
+            </td>
+         </tr>
+         <tr>
+            <td class="curriculo">
+               <label for="curriculo" >Mini-currículo:</label>
+            </td>
+            <td colspan="4">
+               <textarea name="curriculo" id="curriculo"></textarea>
+            </td>
+         </tr>
+      </table>
+   </fieldset>
+   <button class="estilo-button">Enviar</button>
+   <button class="estilo-button">Limpar</button>
+</body>
+</html>
